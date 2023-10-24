@@ -16,10 +16,3 @@ export const incrementCounter = () => ({
   
   export type UserAction = ReturnType<typeof updateUser>;
   
-  // Acción adicional para manejar acciones desconocidas
-  export const unknownAction = () => ({
-    type: 'UNKNOWN_ACTION' as const,
-  });
-  
-  export type UnknownAction = ReturnType<typeof unknownAction>;
-  
