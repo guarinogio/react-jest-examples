@@ -12,17 +12,17 @@ describe('Table Component', () => {
   it('should render a table with data', () => {
     render(<Table data={testData} />);
 
-    // Verificar que la tabla se haya renderizado
+    // Check if the table is rendered
     const tableElement = screen.getByRole('table');
     expect(tableElement).toBeInTheDocument();
 
-    // Verificar que los encabezados estén presentes
+    // Check if headers are present
     const nameHeader = screen.getByText('Name');
     const ageHeader = screen.getByText('Age');
     expect(nameHeader).toBeInTheDocument();
     expect(ageHeader).toBeInTheDocument();
 
-    // Verificar que los datos de la tabla se rendericen correctamente
+     // Check if table data is rendered correctly
     testData.forEach((item) => {
       const nameCell = screen.getByText(item.name);
       const ageCell = screen.getByText(item.age.toString());
