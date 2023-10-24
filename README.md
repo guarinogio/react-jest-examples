@@ -41,7 +41,7 @@ git clone https://github.com/guarinogio/react-jest-examples.git
 2. Install project dependencies:
 
 ```bash
-cd your-project
+cd react-jest-examples
 npm install
 ```
 
