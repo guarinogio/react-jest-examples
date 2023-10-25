@@ -4,7 +4,6 @@ interface UserBehaviorProps {
   onButtonClick: () => void;
 }
 
-// UserBehaviorComponent to demonstrate user interactions.
 const UserBehaviorComponent: React.FC<UserBehaviorProps> = ({ onButtonClick }) => {
   const [count, setCount] = useState(0);
 
