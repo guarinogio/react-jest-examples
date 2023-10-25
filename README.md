@@ -16,7 +16,7 @@ The project includes tests for various common scenarios when developing React ap
 8. Conditional Rendering Testing.
 9. Accessibility (A11y) Testing.
 10. List and Table Component Testing.
-11. Context and Redux Component Testing.
+11. Redux Component Testing.
 12. User Behavior Testing.
 13. Performance Testing.
 14. Animation and Transition Testing.
