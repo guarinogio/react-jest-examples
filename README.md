@@ -21,11 +21,10 @@ The project includes tests for various common scenarios when developing React ap
 13. Animation and Transition Testing.
 14. Testing in Different Environments.
 15. Error Scenario Testing.
-16. Web Optimization (Web Vitals) Testing.
-17. Security Testing.
-18. Style Change Testing.
-19. Internationalization (i18n) Testing.
-20. High-Level Component Testing.
+16. Security Testing.
+17. Style Change Testing.
+18. Internationalization (i18n) Testing.
+19. High-Level Component Testing.
 
 ## Getting Started
 
